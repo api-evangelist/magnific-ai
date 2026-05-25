@@ -1,0 +1,104 @@
+aid: magnific-ai
+name: Magnific
+description: >-
+  Magnific is a Spanish AI image enhancement startup, founded in 2023 by
+  Javi Lopez and Emilio Nicolas, best known for its AI image upscaler and
+  enhancer that hallucinates believable new detail at higher resolutions.
+  The product line expanded from the original Upscaler into Relight
+  (AI-driven scene relighting), Structure (compose-from-sketch), Style
+  Transfer, Mystic (text-to-image), and Fluffy (consistent characters).
+  Magnific was acquired by Freepik in May 2024 and continues to operate
+  under the Magnific brand while powering Freepik's image enhancement
+  surface. There is no publicly documented developer API for Magnific
+  itself; access is via the web application at magnific.ai (now
+  magnific.com) and through the Freepik AI suite, where related image
+  generation and upscaling capabilities are exposed via the Freepik API.
+  Customer support is handled through an Intercom-backed help center and
+  the founders maintain a high-visibility presence on X/Twitter.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - AI
+  - Artificial Intelligence
+  - Image Upscaling
+  - Image Enhancement
+  - Generative AI
+  - Image Generation
+  - Computer Vision
+  - Creative Tools
+  - Relight
+  - Style Transfer
+  - Text To Image
+  - Freepik
+  - Spain
+url: https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://magnific.ai
+  - type: Website
+    url: https://www.magnific.com
+  - type: SignIn
+    url: https://magnific.ai/login
+  - type: SignUp
+    url: https://magnific.ai/signup
+  - type: Pricing
+    url: https://magnific.ai/pricing
+  - type: Support
+    url: https://help.magnific.ai
+  - type: Blog
+    url: https://magnific.ai/blog
+  - type: Parent
+    url: https://www.freepik.com
+  - type: ParentAPI
+    url: https://www.freepik.com/api
+  - type: Acquisition
+    url: https://techcrunch.com/2024/08/06/freepik-acquires-magnific-the-spanish-creator-of-an-ai-image-upscaling-tool/
+  - type: Twitter
+    url: https://twitter.com/javilopen
+  - type: Twitter
+    url: https://twitter.com/emilioniko
+  - type: Twitter
+    url: https://twitter.com/magnific_ai
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/magnific-ai
+  - type: GitHubOrganization
+    url: https://github.com/magnific-ai
+  - type: TermsOfService
+    url: https://magnific.ai/terms
+  - type: PrivacyPolicy
+    url: https://magnific.ai/privacy
+  - type: Features
+    data:
+      - Upscaler — AI image upscaler that hallucinates believable new
+        detail at higher resolutions (the original Magnific product).
+      - Relight — re-lights any image with AI, driven by text prompts,
+        reference images, or 3D lighting setups.
+      - Structure — generates new images that respect the composition of
+        a sketch, edge map, or reference image.
+      - Style Transfer — transfers the visual style of one image onto
+        another while preserving structure.
+      - Mystic — Magnific's text-to-image generation model focused on
+        photographic realism and creative control.
+      - Fluffy — character consistency model for keeping subjects
+        recognizable across multiple generations.
+      - Creativity, HDR, and Resemblance sliders for fine-grained
+        control over upscaling output.
+      - Web application with credit-based pricing tiers; no public
+        developer API for Magnific itself.
+      - Freepik integration — Magnific capabilities are accessible
+        through Freepik's broader AI creative suite following the 2024
+        acquisition.
+    sources:
+      - https://magnific.ai
+      - https://help.magnific.ai
+      - https://techcrunch.com/2024/08/06/freepik-acquires-magnific-the-spanish-creator-of-an-ai-image-upscaling-tool/
+    updated: '2026-05-25'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
