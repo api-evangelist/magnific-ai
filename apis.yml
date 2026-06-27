@@ -43,9 +43,9 @@ common:
     url: https://magnific.ai
   - type: Website
     url: https://www.magnific.com
-  - type: SignIn
+  - type: Login
     url: https://magnific.ai/login
-  - type: SignUp
+  - type: Signup
     url: https://magnific.ai/signup
   - type: Pricing
     url: https://magnific.ai/pricing
