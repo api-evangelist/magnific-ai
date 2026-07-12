@@ -1,0 +1,32 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: magnific.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 23 15:22:29 2026 GMT
+  hsts: null
+- host: www.magnific.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 11 17:35:09 2026 GMT
+  hsts: null
+domains:
+- domain: magnific.ai
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
+- domain: magnific.com
+  dnssec: false
+  caa:
+  - 0 issuewild "letsencrypt.org"
+  - 0 issue "letsencrypt.org"
+  - 0 issuewild "pki.goog"
+  - 0 issue "pki.goog"
+  - 0 issue "sectigo.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
