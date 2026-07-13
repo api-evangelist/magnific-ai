@@ -2,11 +2,10 @@
   "repo": "magnific-ai",
   "feeds": [
     {
-      "source": "https://magnific.ai/blog",
-      "saved": 0,
-      "error": "HTTP 404 Not Found"
+      "source": "https://help.magnific.ai",
+      "error": "URLError"
     }
   ],
-  "fetched": "2026-06-27T12:53:30Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 0
 }
