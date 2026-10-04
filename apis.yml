@@ -46,8 +46,8 @@ tags:
   - Image Upscaling
   - Image Enhancement
   - Generative AI
-  - Image-Generation
-  - Computer-Vision
+  - Image Generation
+  - Computer Vision
   - Creative Tools
   - Relight
   - Style Transfer
@@ -68,6 +68,8 @@ tags_raw:
   - Text To Image
   - Freepik
   - Spain
+  - Image-Generation
+  - Computer-Vision
 url: https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/apis.yml
 created: '2026-05-25'
 modified: '2026-05-25'
